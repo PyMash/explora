@@ -242,8 +242,8 @@ class _SignUpPageState extends State<SignUpPage> {
                     Expanded(
                       child: Align(
                         alignment: FractionalOffset.bottomCenter,
-                        child: Transform.rotate(
-                          angle: 90 * math.pi / 180,
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom:38.0),
                           child: IconButton(
                             icon: Icon(
                               Icons.arrow_back_ios,

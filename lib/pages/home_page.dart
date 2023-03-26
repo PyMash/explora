@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
                     },
                     child: Text('Logout'),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurple,
+                      backgroundColor: Color.fromARGB(255, 8, 56, 33),
                       padding:
                           EdgeInsets.symmetric(horizontal: 32, vertical: 12),
                     ),
